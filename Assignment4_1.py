@@ -1,0 +1,7 @@
+def main():
+    CalSq = lambda No : No*No
+    ret = CalSq(9)
+    print("Square is ",ret)
+
+if __name__ == "__main__":
+    main()    
