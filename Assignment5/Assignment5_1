@@ -1,0 +1,24 @@
+Add = lambda no1, no2 : no1 + no2
+Sub = lambda no1, no2: no1 - no2
+Mult = lambda no1 , no2: no1 * no2
+Div = lambda no1, no2: no1 / no2
+
+
+def main():
+  num1 = int(input("Enter a numbers "))  
+  num2 =  int(input("Enter a numbers " )) 
+  
+  resultAdd = Add(num1 , num2)
+  print("The addition is " , resultAdd)
+    
+  resultSub = Sub(num1 , num2)
+  print("The subtraction is " , resultSub)
+  
+  resultMult = Mult(num1 , num2)
+  print("The multiplication is ", resultMult)
+
+  resultDiv = Div(num1 , num2)
+  print("The division is " , resultDiv)
+
+if __name__ == "__main__":
+    main()
