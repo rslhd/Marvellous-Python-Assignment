@@ -1,0 +1,25 @@
+import Arithmetic1
+
+def main():
+  num1A = int(input("Enter a numbers "))  
+  num2A =  int(input("Enter a numbers " )) 
+  resultAdd = Arithmetic1.Add(num1A , num2A)
+  print("The addition is " , resultAdd)
+    
+  sub1 =  int(input("Enter a numbers "))
+  sub2 =  int(input("Enter a numbers "))
+  resultSub = Arithmetic1.Sub(sub1, sub2)
+  print("The subtraction is " , resultSub)
+   
+  mul1 =  int(input("Enter a numbers "))    
+  mul2 =  int(input("Enter a numbers "))
+  resultMult = Arithmetic1.Mult(mul1, mul2)
+  print("The multiplication is ", resultMult)
+
+  div1 =  int(input("Enter a numbers "))   
+  div2 =  int(input("Enter a numbers ")) 
+  resultDiv = Arithmetic1.Div(div1 , div2)
+  print("The division is " , resultDiv)
+
+if __name__ == "__main__":
+    main()
